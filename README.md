@@ -6,24 +6,28 @@ Public site:
 
 - <https://pungpung22.github.io/game-policies/>
 
-Each game should have its own folder using a stable snake_case game slug.
+Each game should have its own folder using the actual local project directory name.
 
 Current games:
 
-- `crush_factory/`: Crush Factory privacy policy, terms, store disclosure guide, and SDK data inventory.
-- `labmaster/`: Labmaster privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
+- `01_crushfactory/drafts/`: Crush Factory privacy policy, terms, store disclosure guide, and SDK data inventory.
+- `03_labmaster/drafts/`: Labmaster privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 
 Published pages:
 
-- Crush Factory Privacy Policy: <https://pungpung22.github.io/game-policies/crush-factory/privacy/>
-- Crush Factory Terms of Service: <https://pungpung22.github.io/game-policies/crush-factory/terms/>
-- Crush Factory Support: <https://pungpung22.github.io/game-policies/crush-factory/support/>
+- Crush Factory Privacy Policy: <https://pungpung22.github.io/game-policies/01_crushfactory/privacy/>
+- Crush Factory Terms of Service: <https://pungpung22.github.io/game-policies/01_crushfactory/terms/>
+- Crush Factory Support: <https://pungpung22.github.io/game-policies/01_crushfactory/support/>
 
 Recommended structure for future games:
 
-- `game_slug/README.md`
-- `game_slug/privacy_policy.md`
-- `game_slug/terms_of_service.md`
-- `game_slug/store_privacy_disclosure_guide.md`
-- `game_slug/sdk_data_inventory.md`
-- `game_slug/consent_flow.md`
+- `project_folder_name/index.html`
+- `project_folder_name/privacy/index.html`
+- `project_folder_name/terms/index.html`
+- `project_folder_name/support/index.html`
+- `project_folder_name/drafts/README.md`
+- `project_folder_name/drafts/privacy_policy.md`
+- `project_folder_name/drafts/terms_of_service.md`
+- `project_folder_name/drafts/store_privacy_disclosure_guide.md`
+- `project_folder_name/drafts/sdk_data_inventory.md`
+- `project_folder_name/drafts/consent_flow.md`

@@ -6,9 +6,9 @@ They are not legal advice. Before publishing, replace every `TODO_*` placeholder
 
 Public URLs:
 
-- Privacy Policy: `https://pungpung22.github.io/game-policies/crush-factory/privacy/`
-- Terms of Service: `https://pungpung22.github.io/game-policies/crush-factory/terms/`
-- Support: `https://pungpung22.github.io/game-policies/crush-factory/support/`
+- Privacy Policy: `https://pungpung22.github.io/game-policies/01_crushfactory/privacy/`
+- Terms of Service: `https://pungpung22.github.io/game-policies/01_crushfactory/terms/`
+- Support: `https://pungpung22.github.io/game-policies/01_crushfactory/support/`
 
 Draft files:
 

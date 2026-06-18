@@ -4,7 +4,7 @@ Effective date: June 18, 2026
 
 Crush Factory is a mobile idle game developed by Pungpung Studio. This Privacy Policy explains how Crush Factory handles information when you play the game, use ads, or make in-app purchases.
 
-Contact: `https://pungpung22.github.io/game-policies/crush-factory/support/`
+Contact: `https://pungpung22.github.io/game-policies/01_crushfactory/support/`
 
 ## Summary
 
@@ -95,7 +95,7 @@ You can:
 - manage ad personalization through your device settings
 - use Apple App Tracking Transparency choices on iOS where shown
 - use Google or regional privacy controls where shown by the consent message
-- request help through `https://pungpung22.github.io/game-policies/crush-factory/support/`
+- request help through `https://pungpung22.github.io/game-policies/01_crushfactory/support/`
 
 Because the current game does not use accounts or cloud save, deleting the app or resetting save data removes local game progress from the device but does not delete purchase history kept by Google, Apple, or advertising data kept by ad providers.
 
@@ -119,4 +119,4 @@ We may update this Privacy Policy when the app, SDKs, ads, purchases, or legal r
 
 For privacy questions or support requests, contact:
 
-`https://pungpung22.github.io/game-policies/crush-factory/support/`
+`https://pungpung22.github.io/game-policies/01_crushfactory/support/`

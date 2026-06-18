@@ -4,7 +4,7 @@ Effective date: June 18, 2026
 
 These Terms of Service apply to Crush Factory, a mobile idle game developed by Pungpung Studio. By installing or playing Crush Factory, you agree to these terms.
 
-Contact: `https://pungpung22.github.io/game-policies/crush-factory/support/`
+Contact: `https://pungpung22.github.io/game-policies/01_crushfactory/support/`
 
 ## 1. The Game
 
@@ -83,4 +83,4 @@ We may update these terms when the game, platform requirements, or law changes. 
 
 For questions about these terms, contact:
 
-`https://pungpung22.github.io/game-policies/crush-factory/support/`
+`https://pungpung22.github.io/game-policies/01_crushfactory/support/`

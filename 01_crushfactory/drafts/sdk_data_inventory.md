@@ -52,4 +52,4 @@ Use this inventory before every store submission. The privacy policy, Google Pla
 - Add platform billing and receipt verification before enabling paid IAP.
 - Confirm whether Meta and Liftoff/Vungle mediation are actually enabled; remove from disclosure if not included.
 - Fill final Google Play Data safety and Apple App Privacy answers from the release build, not from planned features.
-- Public policy URLs have been assigned under `https://pungpung22.github.io/game-policies/crush-factory/`.
+- Public policy URLs have been assigned under `https://pungpung22.github.io/game-policies/01_crushfactory/`.
