@@ -65,9 +65,9 @@ Potential categories to verify:
 ## Production Submission Gates
 
 - Host public Privacy Policy and Terms URLs:
-  - Privacy Policy: `https://pungpung22.github.io/labmaster-policy/privacy/`
-  - Terms of Service: `https://pungpung22.github.io/labmaster-policy/terms/`
-  - Support: `https://pungpung22.github.io/labmaster-policy/support/`
+  - Privacy Policy: `https://pungpung22.github.io/game-policies/03_labmaster/privacy/`
+  - Terms of Service: `https://pungpung22.github.io/game-policies/03_labmaster/terms/`
+  - Support: `https://pungpung22.github.io/game-policies/03_labmaster/support/`
 - Fill App Store Connect App Privacy for the exact iOS archive.
 - Fill Google Play Data safety for the exact Android release.
 - Keep personalized ads disabled or integrate Google UMP and iOS ATT first.

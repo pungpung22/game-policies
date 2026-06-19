@@ -4,7 +4,7 @@ Effective date: June 18, 2026
 
 These Terms of Service apply to Labmaster, a mobile idle network-building game developed by Pungpung Studio. By installing or playing Labmaster, you agree to these terms.
 
-Contact: `https://pungpung22.github.io/labmaster-policy/support/`
+Contact: `https://pungpung22.github.io/game-policies/03_labmaster/support/`
 
 ## 1. The Game
 
@@ -57,4 +57,4 @@ The game is provided as-is to the extent allowed by law. We do not guarantee uni
 
 ## 9. Contact
 
-For support or terms questions, contact: `https://pungpung22.github.io/labmaster-policy/support/`
+For support or terms questions, contact: `https://pungpung22.github.io/game-policies/03_labmaster/support/`

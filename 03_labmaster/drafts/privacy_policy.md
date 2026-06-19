@@ -4,7 +4,7 @@ Effective date: June 18, 2026
 
 Labmaster is a mobile idle network-building game developed by Pungpung Studio. This Privacy Policy explains how Labmaster handles information when you play the game, view ads, or make in-app purchases.
 
-Contact: `https://pungpung22.github.io/labmaster-policy/support/`
+Contact: `https://pungpung22.github.io/game-policies/03_labmaster/support/`
 
 ## Summary
 
@@ -73,4 +73,4 @@ If the policy version changes, the app should ask players to review Privacy Bay 
 
 ## Contact
 
-For privacy questions, contact: `https://pungpung22.github.io/labmaster-policy/support/`
+For privacy questions, contact: `https://pungpung22.github.io/game-policies/03_labmaster/support/`

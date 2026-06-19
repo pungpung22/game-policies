@@ -6,9 +6,9 @@ They are not legal advice. Before publishing, replace every `TODO_*` placeholder
 
 Recommended public URLs:
 
-- Privacy Policy: `https://pungpung22.github.io/labmaster-policy/privacy/`
-- Terms of Service: `https://pungpung22.github.io/labmaster-policy/terms/`
-- Support: `https://pungpung22.github.io/labmaster-policy/support/`
+- Privacy Policy: `https://pungpung22.github.io/game-policies/03_labmaster/privacy/`
+- Terms of Service: `https://pungpung22.github.io/game-policies/03_labmaster/terms/`
+- Support: `https://pungpung22.github.io/game-policies/03_labmaster/support/`
 
 Draft files:
 
