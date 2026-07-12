@@ -2,7 +2,7 @@
 
 Effective date: June 18, 2026
 
-Crush Factory is a mobile idle game developed by Pungpung Studio. This Privacy Policy explains how Crush Factory handles information when you play the game, use ads, or make in-app purchases.
+Crush Factory is a mobile idle game developed by pungpungstudi. This Privacy Policy explains how Crush Factory handles information when you play the game, use ads, or make in-app purchases.
 
 Contact: `https://pungpung22.github.io/game-policies/01_crushfactory/support/`
 
