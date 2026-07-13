@@ -1,39 +1,44 @@
 # Ghost Paws 스토어 개인정보 신고 가이드
 
-기준 빌드: 광고·분석·충돌 보고·로그인·클라우드·실제 결제 SDK가 없는 `com.pungpung22.ghostpaws`
+기준일: 2026년 7월 13일
+앱: `com.pungpung22.ghostpaws` / 개발자: `pungpungstudi`
+
+## 공통
+
+- Privacy Policy: `https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/`
+- Support: `https://pungpung22.github.io/game-policies/08_GhostPaws/support/`
+- 광고: 상점 선택형 보상 광고 1개, 20개/회, UTC 기준 하루 3회
+- 배너/전면/앱 시작/강제 부활/리롤 광고 없음
+- 계정, 분석 SDK, 클라우드, 채팅, UGC 없음
+- Google Mobile Ads/UMP의 실제 최종 버전과 설정에서 양식을 작성한다.
 
 ## Apple App Store Connect
 
-- Privacy Policy URL: `https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/`
-- Support URL: `https://pungpung22.github.io/game-policies/08_GhostPaws/support/`
-- Data Collection: **No, we do not collect data from this app**
-- Tracking: **No**
-- IDFA/ATT: 사용 안 함, ATT 프롬프트 없음
-- 계정 삭제 URL: 계정 생성 기능이 없으므로 해당 없음
-- 암호화: 앱 설정상 비면제 암호화 미사용
+- App Privacy에서 IP 주소 기반 대략적 위치, 기기 ID, 광고 데이터, 제품
+  상호작용, 충돌/진단 및 성능 데이터를 Google의 최신 iOS 공개 문서와 대조한다.
+- 목적은 Third-Party Advertising, Developer's Advertising or Marketing,
+  Analytics, App Functionality/Fraud Prevention 중 실제 SDK 보고서에 맞게 선택한다.
+- 현재 Tracking은 `No`로 계획하며 ATT 프롬프트를 요청하지 않는다. 최종 Xcode
+  privacy report에서 SDK의 tracking domain/IDFA 사용을 다시 확인한다.
+- Account deletion URL은 계정 기능이 없어 해당 없음이다.
+- StoreKit provider가 추가되면 Purchases와 product/transaction ID 처리를 재검토한다.
 
-Godot PrivacyInfo의 required-reason API 선언은 운영체제 API 사용 이유를 밝히는 것이며, 그 자체로 사용자 데이터 수집을 의미하지 않는다. 최종 archive의 PrivacyInfo와 포함 SDK를 제출 직전에 다시 확인한다.
+## Google Play Console
 
-## Google Play Console Data safety
+- Ads declaration: **Yes**
+- Data safety에서 기존 `수집 없음/공유 없음` 답변을 사용하지 않는다.
+- Google Mobile Ads Android 공개 문서에 따라 IP 주소, 앱/광고 상호작용,
+  진단, 기기·계정 식별자의 수집/공유 및 광고·분석·부정행위 방지 목적을 검토한다.
+- Google SDK 전송은 TLS 암호화로 안내되어 있으나 최종 양식은 계정 소유자가 확인한다.
+- Account creation: 없음. 로컬 데이터는 앱 저장공간 삭제/제거로 삭제한다.
+- 최종 AAB의 `INTERNET`, `ACCESS_NETWORK_STATE`, `AD_ID` 및 간접 SDK를 확인한다.
+- 대상 연령에 아동이 포함되면 Families용 광고 SDK/콘텐츠/개인 맞춤 설정 요건을
+  별도로 충족한 뒤 제출한다.
 
-- 앱이 필수 데이터 유형을 수집하거나 공유하는가: **아니요**
-- 전송 중 암호화: 전송하는 사용자 데이터가 없음
-- 데이터 삭제 요청: 계정·서버 데이터 없음. 로컬 삭제 방법을 개인정보처리방침에 안내
-- 독립 보안 검토: 완료하지 않았다면 아니요
-- Ads declaration: 현재 광고 SDK/광고 노출이 없으므로 **광고 없음**
-- App access: 로그인 없음, 모든 기능 접근 가능
+## 제출 중단 조건
 
-로컬에서만 처리되고 기기 밖으로 전송되지 않는 진행·설정 데이터는 현재 Data safety의 수집 항목으로 신고하지 않는다.
-
-## 제출 전 중단 조건
-
-다음 중 하나라도 확인되면 위 답변을 그대로 제출하지 않는다.
-
-- 광고 또는 mediation SDK 포함
-- 분석, 충돌 보고, 원격 설정, 푸시 SDK 포함
-- 서버 API, 계정, 클라우드 저장 또는 리더보드 포함
-- 실제 인앱 결제와 서버 영수증 검증 포함
-- 지원 기능이 이메일, 로그, 첨부파일을 앱에서 자동 전송
-- 인터넷/위치/카메라/마이크/사진/연락처/추적 권한 추가
-
-변경이 있으면 SDK 데이터 목록, 개인정보처리방침, Apple App Privacy, Google Data safety, 동의 흐름과 앱 내부 고지를 함께 갱신한다.
+- Google 테스트 App ID/광고 단위 ID가 남아 있음
+- AdMob Privacy & messaging 양식 미게시
+- 공개 루트 `app-ads.txt`의 게시자 행 확인 실패
+- 최종 AAB/IPA와 정책의 SDK 버전 또는 데이터 범주가 다름
+- mediation, 분석, 충돌 보고, 푸시, 계정, 서버, IAP provider가 문서 갱신 없이 추가됨

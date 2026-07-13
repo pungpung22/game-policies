@@ -14,12 +14,13 @@
 
 - 패키지/Bundle ID: `com.pungpung22.ghostpaws`
 - 계정 및 개발자 서버 없음
-- 광고·분석·충돌 보고 SDK 없음
+- 상점 선택형 Google Mobile Ads 보상 광고와 UMP 포함
 - 실제 인앱 결제 없음
-- Android 인터넷 권한 비활성화
+- Android 인터넷/네트워크 상태 접근 활성화
 - 진행도와 로컬 텔레메트리는 기기 안에만 저장
-- iOS App Privacy: Data Not Collected / Tracking No
-- Google Play Data safety: 수집 없음 / 공유 없음
+- iOS App Privacy: Google Mobile Ads 데이터 공개 기준으로 제출 / 현재 Tracking No 계획
+- Google Play Data safety: Google Mobile Ads 자동 수집·공유 항목 기준으로 제출
+- Google Play Ads declaration: Yes
 
 파일:
 
