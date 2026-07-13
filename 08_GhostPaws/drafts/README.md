@@ -15,11 +15,14 @@
 - 패키지/Bundle ID: `com.pungpung22.ghostpaws`
 - 계정 및 개발자 서버 없음
 - 상점 선택형 Google Mobile Ads 보상 광고와 UMP 포함
+- Android Firebase Remote Config와 Crashlytics/Crashlytics NDK 포함
+- Firebase Google Analytics 사용 안 함
+- iOS Firebase 앱/config 등록 완료, 네이티브 SDK 브리지는 출시 전 블로커
 - 실제 인앱 결제 없음
 - Android 인터넷/네트워크 상태 접근 활성화
 - 진행도와 로컬 텔레메트리는 기기 안에만 저장
-- iOS App Privacy: Google Mobile Ads 데이터 공개 기준으로 제출 / 현재 Tracking No 계획
-- Google Play Data safety: Google Mobile Ads 자동 수집·공유 항목 기준으로 제출
+- iOS App Privacy: Google Mobile Ads 및 향후 Firebase iOS 실제 빌드 기준 / 현재 Tracking No 계획
+- Google Play Data safety: Google Mobile Ads + Remote Config + Crashlytics 기준으로 제출
 - Google Play Ads declaration: Yes
 
 파일:
