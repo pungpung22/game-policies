@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>개인정보처리방침 | 냥벽수비대: 고스트 포우즈</title>
-  <meta name="description" content="냥벽수비대: 고스트 포우즈의 AdMob 보상 광고 및 로컬 데이터 개인정보처리방침">
+  <meta name="description" content="냥벽수비대: 고스트 포우즈의 AdMob, Firebase 진단 및 로컬 데이터 개인정보처리방침">
   <link rel="stylesheet" href="/game-policies/assets/style.css">
 </head>
 <body>
@@ -28,11 +28,14 @@
       <p class="notice"><strong>요약:</strong> 게임 진행도는 기기에 저장됩니다.
         상점의 선택형 보상 광고를 위해 Google Mobile Ads SDK와 Google User
         Messaging Platform(UMP)을 사용하며, Google 및 광고 파트너가 광고 관련
-        데이터를 처리할 수 있습니다.</p>
+        데이터를 처리할 수 있습니다. 앱 업데이트 확인에는 Firebase Remote Config,
+        비정상 종료 진단에는 Firebase Crashlytics를 사용합니다.</p>
 
       <h2>1. 서비스와 적용 범위</h2>
       <p>게임은 Android와 iOS에서 진행도를 로컬에 저장하고 상점에서 선택형 보상
-        광고를 제공합니다. 계정 로그인, 분석 SDK, 클라우드 저장, 멀티플레이,
+        광고를 제공합니다. 앱 업데이트 알림에는 Firebase Remote Config, 비정상
+        종료 진단에는 Firebase Crashlytics를 사용합니다. 계정 로그인, Google
+        Analytics, 클라우드 저장, 멀티플레이,
         채팅, 사용자 제작 콘텐츠는 사용하지 않습니다. 앱 스토어, 운영체제,
         Google 광고 및 GitHub 지원 페이지에는 각 사업자의 정책이 적용됩니다.</p>
 
@@ -52,7 +55,18 @@
         자세한 내용은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을
         확인해 주세요.</p>
 
-      <h2>3. 개인정보 선택과 광고 방식</h2>
+      <h2>3. 업데이트 확인과 비정상 종료 진단</h2>
+      <p>Firebase Remote Config는 업데이트 설정을 전달하기 위해 앱 범위 Firebase
+        설치 식별자와 기술적인 요청 정보를 처리할 수 있습니다. Crashlytics는
+        비정상 종료 보고서, 스택 트레이스, 앱·OS 버전, 기기 모델, 프로세스 상태,
+        발생 시각 및 개발자가 추가한 진단 키를 처리할 수 있습니다.</p>
+      <p>게임은 현재 앱 버전, 플랫폼, 엔진 범위 같은 기술 값만 진단 키로 추가하며
+        계정 정보, 로컬 저장 데이터, 광고 ID 또는 정밀 위치를 오류 보고서에
+        의도적으로 첨부하지 않습니다. 이 정보는 업데이트 안내, 안정성 문제 진단과
+        앱 신뢰성 개선에 사용되며 Google의 Firebase 약관과 개인정보 문서에 따라
+        보관됩니다. 이 Firebase 프로젝트의 Google Analytics는 사용하지 않습니다.</p>
+
+      <h2>4. 개인정보 선택과 광고 방식</h2>
       <p>게임은 필요한 지역에서 실행할 때마다 UMP로 최신 동의 상태를 확인합니다.
         Google이 개인정보 선택 양식을 제공하면 설정 또는 상점의
         <strong>광고 개인정보 설정</strong>에서 다시 열 수 있습니다. Android/iOS
@@ -64,7 +78,7 @@
         기준 하루 최대 3회까지 지급합니다. 완료 전에 닫으면 재화를 지급하지
         않습니다. 배너, 전면, 앱 시작, 강제 부활, 레벨업 리롤 광고는 사용하지 않습니다.</p>
 
-      <h2>4. 기기에 저장되는 데이터</h2>
+      <h2>5. 기기에 저장되는 데이터</h2>
       <ul>
         <li>가상 재화 잔액, 누적 획득량, 광고 완료 날짜·오늘/전체 횟수</li>
         <li>고양이, 무기, 유물, 맵, 스티커 및 메타 업그레이드 상태</li>
@@ -76,7 +90,7 @@
       <p>이 로컬 게임 데이터는 개발자 서버로 전송되지 않습니다. 운영체제 백업이
         앱 데이터를 복사하는 경우 Apple 또는 Google의 설정과 정책이 적용됩니다.</p>
 
-      <h2>5. 결제, 권한 및 삭제</h2>
+      <h2>6. 결제, 권한 및 삭제</h2>
       <p>유료 상품 결제는 Apple 또는 Google의 스토어 시스템이 처리하며 게임은
         전체 카드 정보를 받지 않습니다. 결제 내역에는 해당 스토어 정책이 적용됩니다.</p>
       <p>광고와 스토어 서비스에 인터넷 및 네트워크 상태 접근을 사용합니다. 카메라,
@@ -85,7 +99,7 @@
         데이터를 삭제할 수 있습니다. 게임에는 사용자 계정이나 개발자 서버가 없어
         개발자가 원격으로 조회·삭제할 게임 데이터는 없습니다.</p>
 
-      <h2>6. 아동, 보안, 보관 및 변경</h2>
+      <h2>7. 아동, 보안, 보관 및 변경</h2>
       <p>게임은 아동의 개인정보를 직접 수집하도록 설계되지 않았습니다. 대상 연령에
         아동이 포함되면 출시 전에 적용되는 Families/아동 규정에 맞게 광고 설정과
         공개 내용을 조정합니다.</p>
@@ -93,14 +107,14 @@
         덮어쓰기, 앱 저장공간 삭제 또는 앱 제거 전까지 남습니다. SDK, 데이터 처리,
         게임 기능 또는 법적 요구가 실질적으로 바뀌면 본 방침과 스토어 신고를 갱신합니다.</p>
 
-      <h2>7. 외부 서비스</h2>
+      <h2>8. 외부 서비스</h2>
       <ul>
         <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
         <li><a href="https://www.apple.com/legal/privacy/">Apple 개인정보 보호정책</a></li>
         <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 보호정책</a></li>
       </ul>
 
-      <h2>8. 문의</h2>
+      <h2>9. 문의</h2>
       <p>개인정보 또는 데이터 삭제 문의는
         <a href="/game-policies/08_GhostPaws/support/">Ghost Paws 지원 페이지</a>를
         이용해 주세요. 공개 이슈에는 비밀번호, 결제 정보, 실명 또는 연락처를
