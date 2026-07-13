@@ -12,7 +12,7 @@
 
 현재 릴리스 기준:
 
-- 패키지/Bundle ID: `com.pungpung22.ghostpaws`
+- 패키지/Bundle ID: `com.pungpungstudi.ghostpaws`
 - 계정 및 개발자 서버 없음
 - 상점 선택형 Google Mobile Ads 보상 광고와 UMP 포함
 - Android Firebase Remote Config와 Crashlytics/Crashlytics NDK 포함

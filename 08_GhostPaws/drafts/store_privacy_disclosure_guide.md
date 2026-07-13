@@ -1,7 +1,7 @@
 # Ghost Paws 스토어 개인정보 신고 가이드
 
 기준일: 2026년 7월 13일
-앱: `com.pungpung22.ghostpaws` / 개발자: `pungpungstudi`
+앱: `com.pungpungstudi.ghostpaws` / 개발자: `pungpungstudi`
 
 ## 공통
 

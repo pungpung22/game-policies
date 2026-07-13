@@ -2,7 +2,7 @@
 
 - 시행일 및 최종 업데이트: 2026년 7월 13일
 - 개발자: `pungpungstudi`
-- 앱 식별자: `com.pungpung22.ghostpaws`
+- 앱 식별자: `com.pungpungstudi.ghostpaws`
 - 공개본: <https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/>
 
 ## 서비스와 적용 범위
