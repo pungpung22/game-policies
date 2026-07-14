@@ -16,6 +16,7 @@ Current games:
 - `03_labmaster/drafts/`: Labmaster privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 - `08_GhostPaws/drafts/`: Ghost Paws privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 - `09_pendoku/drafts/`: Pengudoku privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
+- `11_wordpuzzle/drafts/`: Cipher Detective privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 
 Published pages:
 
@@ -28,6 +29,9 @@ Published pages:
 - Pengudoku Privacy Policy: <https://pungpung22.github.io/game-policies/09_pendoku/privacy/>
 - Pengudoku Terms of Service: <https://pungpung22.github.io/game-policies/09_pendoku/terms/>
 - Pengudoku Support: <https://pungpung22.github.io/game-policies/09_pendoku/support/>
+- Cipher Detective Privacy Policy: <https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/>
+- Cipher Detective Terms of Service: <https://pungpung22.github.io/game-policies/11_wordpuzzle/terms/>
+- Cipher Detective Support: <https://pungpung22.github.io/game-policies/11_wordpuzzle/support/>
 
 Recommended structure for future games:
 
