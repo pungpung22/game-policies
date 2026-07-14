@@ -6,6 +6,7 @@
 | Google User Messaging Platform | Android, iOS | Consent and privacy options | Consent state, device/app context | Privacy options can be reopened when available |
 | Firebase Analytics | Android, iOS | Optional usage analytics | App instance ID, device/app info, coarse region, gameplay events | Disabled by default; user setting enables it |
 | Firebase Crashlytics | Android, iOS | Optional crash diagnostics | Crash stack, device/app info, performance and custom stage context | Disabled by default; user setting enables it |
+| Firebase Remote Config | Android, iOS | Maintenance and update configuration | Firebase installation identifier, app/OS/device and technical request information | Always available for app functionality; no progress, currency or account data sent |
 | Apple StoreKit / Google Play Billing | iOS, Android | In-app purchase and restore | Product ID, transaction/purchase status, store account context | Store handles payment details |
 | Native review prompt | Android, iOS | App rating request | Platform-controlled | Requested after qualifying clears; no review text read by app |
 | GitHub Pages | Web | Policy and support hosting | Standard web request data handled by GitHub | No game account linkage |
