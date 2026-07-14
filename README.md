@@ -15,6 +15,7 @@ Current games:
 - `01_crushfactory/drafts/`: Crush Factory privacy policy, terms, store disclosure guide, and SDK data inventory.
 - `03_labmaster/drafts/`: Labmaster privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 - `08_GhostPaws/drafts/`: Ghost Paws privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
+- `09_pendoku/drafts/`: Pengudoku privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 
 Published pages:
 
@@ -24,6 +25,9 @@ Published pages:
 - Ghost Paws Privacy Policy: <https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/>
 - Ghost Paws Terms of Service: <https://pungpung22.github.io/game-policies/08_GhostPaws/terms/>
 - Ghost Paws Support: <https://pungpung22.github.io/game-policies/08_GhostPaws/support/>
+- Pengudoku Privacy Policy: <https://pungpung22.github.io/game-policies/09_pendoku/privacy/>
+- Pengudoku Terms of Service: <https://pungpung22.github.io/game-policies/09_pendoku/terms/>
+- Pengudoku Support: <https://pungpung22.github.io/game-policies/09_pendoku/support/>
 
 Recommended structure for future games:
 

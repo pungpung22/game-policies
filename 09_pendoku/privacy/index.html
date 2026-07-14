@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침 | Pengudoku</title>
+  <meta name="description" content="Pengudoku의 로컬 저장, AdMob, Firebase 및 인앱 결제 개인정보처리방침">
+  <link rel="stylesheet" href="/game-policies/assets/style.css">
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="/game-policies/09_pendoku/">Pengudoku 정책</a>
+      <div class="links">
+        <a href="/game-policies/09_pendoku/privacy/">개인정보</a>
+        <a href="/game-policies/09_pendoku/terms/">이용약관</a>
+        <a href="/game-policies/09_pendoku/support/">지원</a>
+      </div>
+    </nav>
+
+    <article class="content">
+      <h1>개인정보처리방침</h1>
+      <p class="effective">시행일 및 최종 업데이트: 2026년 7월 14일</p>
+      <p><strong>pungpungstudi</strong>(이하 “개발자”)는 모바일 게임
+        <strong>Pengudoku - 펭귄 논리 퍼즐</strong>
+        (<code>com.pungpungstudi.pendoku</code>, 이하 “게임”)의 개인정보 처리 방식을 다음과 같이 안내합니다.</p>
+      <p class="notice"><strong>요약:</strong> 게임은 계정이나 개발자 운영 서버 없이 진행 정보를 기기에 저장합니다. Google AdMob 광고를 사용하며, Firebase Analytics와 Crashlytics 수집은 기본적으로 꺼져 있고 이용자가 설정에서 직접 켠 경우에만 작동합니다. 결제는 Apple 또는 Google의 스토어가 처리합니다.</p>
+
+      <h2>1. 적용 범위와 계정</h2>
+      <p>본 방침은 Android 및 iOS용 게임에 적용됩니다. 게임은 회원 가입이나 로그인을 요구하지 않으며 이름, 이메일, 비밀번호 또는 결제 카드 번호를 앱에서 직접 입력받지 않습니다. 앱 스토어, 운영체제, Google 광고·Firebase 및 GitHub Pages에는 각 사업자의 정책이 별도로 적용됩니다.</p>
+
+      <h2>2. 기기에 저장되는 게임 데이터</h2>
+      <ul>
+        <li>현재 스테이지, 완료 기록, 최고 기록, 별 및 누적 플레이 정보</li>
+        <li>튜토리얼·출석 상태, 물고기와 아이템 수량, 광고 보상 날짜·횟수</li>
+        <li>보유·구매·선택한 펭귄 컬렉션 및 상품 식별자</li>
+        <li>소리, 진동, 선택적 분석·오류 보고 설정</li>
+        <li>앱 평가 요청 여부 등 반복 안내를 제어하기 위한 상태</li>
+      </ul>
+      <p>이 정보는 기본적으로 기기에만 저장되며 개발자 서버로 전송되지 않습니다. 운영체제 백업이 앱 데이터를 복사하는 경우 Apple 또는 Google의 설정과 정책이 적용됩니다.</p>
+
+      <h2>3. 광고와 동의 관리</h2>
+      <p>게임은 Google AdMob과 Google User Messaging Platform(UMP)을 사용합니다. Google 및 광고 파트너는 광고 제공, 빈도 제한, 부정행위 방지, 성과 측정과 오류 진단을 위해 다음 정보를 처리할 수 있습니다.</p>
+      <ul>
+        <li>IP 주소와 이를 이용한 대략적인 위치</li>
+        <li>광고 ID 또는 앱 범위 식별자를 포함한 기기 식별자</li>
+        <li>기기·운영체제·앱 버전 및 네트워크 정보</li>
+        <li>광고 노출, 시청 완료, 탭과 같은 광고·앱 상호작용</li>
+        <li>동의 상태, 충돌, 실행 시간과 성능 진단 정보</li>
+      </ul>
+      <p>필요한 지역에서는 UMP가 개인정보 선택 화면을 제공합니다. 제공되는 경우 게임 설정의 <strong>광고 개인정보 설정</strong>에서 선택을 다시 열 수 있습니다. 현재 게임은 Apple 앱 추적 투명성(ATT) 권한을 요청하지 않으며, 허가 없이 IDFA 기반 추적을 의도적으로 사용하지 않습니다.</p>
+      <p>선택형 보상 광고는 완료 시 물고기 또는 게임 아이템을 지급할 수 있습니다. 물고기 광고 보상은 1회당 1개, 기기 날짜 기준 하루 최대 5회입니다. 스테이지 4부터는 누적 완료 횟수에 따라 스테이지 완료 후 전면 광고가 표시될 수 있습니다. 광고 제공 여부와 내용은 지역, 동의 상태, 네트워크 및 광고 재고에 따라 달라집니다.</p>
+
+      <h2>4. 선택적 사용 분석 및 오류 보고</h2>
+      <p>게임에는 Firebase Analytics와 Firebase Crashlytics가 포함되어 있지만 수집은 기본적으로 꺼져 있습니다. 이용자가 설정의 <strong>분석·오류 보고</strong>를 켠 경우에만 Firebase가 앱 인스턴스 식별자, 기기·앱 정보, 대략적인 지역, 스테이지 시작·완료 같은 상호작용, 충돌 로그와 성능·진단 정보를 처리할 수 있습니다.</p>
+      <p>개발자는 Firebase에 이름, 이메일 또는 별도의 사용자 ID를 설정하지 않습니다. 분석 동의는 광고 개인정보 선택과 별개이며 언제든지 설정에서 끌 수 있습니다. 끄면 이후의 Analytics 및 Crashlytics 수집을 비활성화하며, 이전에 전송된 정보의 보관에는 Google 정책이 적용됩니다.</p>
+
+      <h2>5. 인앱 구매와 구매 복원</h2>
+      <p>물고기와 펭귄 컬렉션의 인앱 구매는 Apple App Store 또는 Google Play가 처리합니다. 개발자는 전체 카드 정보를 직접 받거나 저장하지 않습니다. 게임은 상품 제공과 영구 컬렉션 복원을 위해 상품 식별자, 구매 상태 및 거래 식별자를 스토어 서비스와 주고받거나 기기에 저장할 수 있습니다. 소비성 물고기는 일반적으로 구매 복원 대상이 아니며, 환불과 거래 기록에는 각 스토어 정책이 적용됩니다.</p>
+
+      <h2>6. 시스템 기능과 권한</h2>
+      <p>일정 수의 스테이지를 완료하면 운영체제가 제공하는 앱 평가 요청 화면이 표시될 수 있습니다. 게임은 광고, 결제 및 정책 페이지 연결을 위해 인터넷을 사용하지만 카메라, 마이크, 연락처, 사진 보관함 또는 정밀 위치 권한을 요구하지 않습니다.</p>
+
+      <h2>7. 보관, 삭제 및 이용자 선택</h2>
+      <p>로컬 게임 데이터는 앱 저장공간을 초기화하거나 게임을 삭제할 때까지 기기에 남습니다. Android의 앱 저장공간 삭제 또는 iOS/Android의 앱 제거로 로컬 데이터를 삭제할 수 있습니다. 게임에는 사용자 계정이나 개발자 서버가 없어 개발자가 원격으로 조회·복구·삭제할 게임 진행 데이터는 없습니다.</p>
+      <p>광고, 선택적 분석, 오류 보고 및 구매 과정에서 제3자에게 전송된 정보는 Google, Apple 또는 Google Play가 각 정책과 법령에 따라 보관합니다. 관련 권리 요청은 해당 서비스의 개인정보 도구를 이용할 수 있습니다.</p>
+
+      <h2>8. 아동, 판매, 보안 및 변경</h2>
+      <p>게임은 만 13세 미만 아동의 개인정보를 의도적으로 수집하도록 설계되지 않았습니다. 개발자는 개인정보를 직접 판매하지 않습니다. 전송이 필요한 경우 SDK가 제공하는 암호화된 연결을 사용하며, 앱 기능·SDK·법률 또는 플랫폼 정책이 실질적으로 변경되면 본 방침과 스토어 신고를 갱신합니다.</p>
+
+      <h2>9. 외부 서비스</h2>
+      <ul>
+        <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+        <li><a href="https://firebase.google.com/support/privacy">Firebase 개인정보 및 보안</a></li>
+        <li><a href="https://www.apple.com/legal/privacy/">Apple 개인정보 보호정책</a></li>
+        <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보 보호정책</a></li>
+      </ul>
+
+      <h2>10. 문의</h2>
+      <p>개인정보 또는 데이터 삭제 문의: <a href="mailto:pung0805@gmail.com">pung0805@gmail.com</a></p>
+      <p>자세한 문의 방법은 <a href="/game-policies/09_pendoku/support/">Pengudoku 지원 페이지</a>를 확인해 주세요.</p>
+      <p>개발자 표기: <strong>pungpungstudi</strong></p>
+    </article>
+  </main>
+</body>
+</html>
