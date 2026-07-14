@@ -6,5 +6,6 @@ The canonical public terms are maintained at:
 
 The public terms cover the personal license, intellectual property, acceptable
 use, virtual items, rewarded and native advertising, consumable and
-non-consumable purchases, restoration, local-save limitations, updates,
+non-consumable purchases, Detective Pass renewal and cancellation, restoration,
+local-save limitations, updates,
 consumer rights, governing law, and support contact.

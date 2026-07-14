@@ -9,7 +9,7 @@ Verified against the Flutter project on July 14, 2026.
 | `shared_preferences` | Local progress and settings | Progress, ink, content ownership, settings, purchase fulfillment keys |
 | Google Mobile Ads | Rewarded ads and exit native ad | IP/coarse location, identifiers, interactions, diagnostics, device/app/network data |
 | Google UMP | Regional advertising consent | Consent status and privacy choices |
-| `in_app_purchase` | Store products and restoration | Product, purchase status, verification, and transaction identifiers |
+| RevenueCat `purchases_flutter` | Store products, validation, restoration, and Detective Pass | Anonymous app user ID, product and transaction identifiers, purchase history, subscription status |
 | `in_app_review` | Milestone review prompt | Store/provider-controlled review flow |
 
 ## Not present
@@ -22,6 +22,6 @@ Verified against the Flutter project on July 14, 2026.
 
 - Rewarded ads are user initiated for bonuses or failure continuation.
 - A native ad can appear in the exit-confirmation dialog.
-- Remove Ads hides non-optional advertising; rewarded choices remain available.
+- Detective Pass hides non-optional advertising while active; rewarded choices remain available.
 - Interstitial support exists in the service layer, but no current UI/controller path requests it.
 - No ad request is allowed while actively solving a puzzle.

@@ -14,5 +14,6 @@ Required factual anchors:
 - Google Mobile Ads and UMP disclosure
 - User-initiated rewarded ads and exit-confirmation native ad
 - Store-processed purchases and restoration
+- RevenueCat purchase validation and Detective Pass subscription status
 - Local data deletion and provider-controlled retention
 - Contact: `pung0805@gmail.com`

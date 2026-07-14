@@ -6,7 +6,7 @@
 4. When UMP reports that privacy options are required, Settings exposes the
    privacy-options entry point so the user can review choices.
 5. Rewarded ads require an explicit user action. A native ad may load only for
-   the exit-confirmation dialog and is skipped for Remove Ads owners.
+   the exit-confirmation dialog and is skipped while Detective Pass is active.
 6. If consent prevents ad requests, advertising remains unavailable without
    blocking core puzzle gameplay.
 

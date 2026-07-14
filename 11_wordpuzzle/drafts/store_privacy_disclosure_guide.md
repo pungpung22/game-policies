@@ -14,6 +14,7 @@ and the SDK-provider disclosures current on the submission date.
 | Product and ad interactions | Google Mobile Ads may process ad/app interactions | Advertising and measurement | No Developer-set user ID |
 | Diagnostics | Google Mobile Ads may process SDK/app diagnostics | Advertising, analytics, security | No Developer-set user ID |
 | Product and transaction identifiers | Store billing and local fulfillment | Purchase delivery, restoration, duplicate prevention | Store account controls linkage |
+| Anonymous app user ID, purchase history, and subscription status | RevenueCat purchase SDK | Validation, entitlement access, restoration, fraud prevention, diagnostics | RevenueCat customer record |
 
 ## Google Play Data safety review points
 
@@ -22,7 +23,7 @@ and the SDK-provider disclosures current on the submission date.
   app interactions, advertising data, and diagnostics. Confirm names and purposes
   in the current Play Console form.
 - Data is encrypted in transit by Google Mobile Ads according to Google's disclosure.
-- Purchases use Google Play Billing on Android.
+- Purchases use Google Play Billing through RevenueCat on Android.
 - Users can delete complete local data by clearing app storage or uninstalling.
 - There is no account creation, so the app account-deletion requirement does not apply.
 - Privacy Policy URL: `https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/`
@@ -31,8 +32,9 @@ and the SDK-provider disclosures current on the submission date.
 
 - The Game does not request contact details, precise location, contacts, photos,
   camera, microphone, health data, or user-generated content.
-- Purchases are handled through StoreKit via `in_app_purchase`; the Game receives
-  product, verification, status, and transaction identifiers.
+- Purchases are handled through StoreKit via RevenueCat; RevenueCat processes an
+  anonymous app user ID, product and transaction identifiers, purchase history,
+  and subscription status for validation and restoration.
 - Review identifiers, usage data, diagnostics, and tracking answers against the
   current Google Mobile Ads iOS privacy disclosure and the final consent setup.
 - Do not claim that the app collects no data solely because gameplay stays local.
