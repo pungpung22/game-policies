@@ -20,6 +20,8 @@ Published pages:
 - Ghost Paws Privacy Policy: <https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/>
 - Ghost Paws Terms of Service: <https://pungpung22.github.io/game-policies/08_GhostPaws/terms/>
 - Ghost Paws Support: <https://pungpung22.github.io/game-policies/08_GhostPaws/support/>
+- Ghost Paws English: <https://pungpung22.github.io/game-policies/08_GhostPaws/en/>
+- Ghost Paws Japanese: <https://pungpung22.github.io/game-policies/08_GhostPaws/ja/>
 - Pengudoku Privacy Policy: <https://pungpung22.github.io/game-policies/09_pendoku/privacy/>
 - Pengudoku Terms of Service: <https://pungpung22.github.io/game-policies/09_pendoku/terms/>
 - Pengudoku Support: <https://pungpung22.github.io/game-policies/09_pendoku/support/>
