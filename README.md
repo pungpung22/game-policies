@@ -28,6 +28,9 @@ Published pages:
 - Cipher Detective Privacy Policy: <https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/>
 - Cipher Detective Terms of Service: <https://pungpung22.github.io/game-policies/11_wordpuzzle/terms/>
 - Cipher Detective Support: <https://pungpung22.github.io/game-policies/11_wordpuzzle/support/>
+- Tide Paws Privacy Policy: <https://pungpung22.github.io/game-policies/13_meteorplanet/privacy/>
+- Tide Paws Terms of Service: <https://pungpung22.github.io/game-policies/13_meteorplanet/terms/>
+- Tide Paws Support: <https://pungpung22.github.io/game-policies/13_meteorplanet/support/>
 
 Recommended structure for future games:
 
