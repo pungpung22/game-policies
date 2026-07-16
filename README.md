@@ -17,6 +17,7 @@ Current games:
 - `08_GhostPaws/drafts/`: Ghost Paws privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 - `09_pendoku/drafts/`: Pengudoku privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 - `11_wordpuzzle/drafts/`: Cipher Detective privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
+- `13_meteorplanet/drafts/`: Tide Paws privacy policy, terms, consent flow, store disclosure guide, and SDK data inventory.
 
 Published pages:
 
@@ -32,6 +33,9 @@ Published pages:
 - Cipher Detective Privacy Policy: <https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/>
 - Cipher Detective Terms of Service: <https://pungpung22.github.io/game-policies/11_wordpuzzle/terms/>
 - Cipher Detective Support: <https://pungpung22.github.io/game-policies/11_wordpuzzle/support/>
+- Tide Paws Privacy Policy: <https://pungpung22.github.io/game-policies/13_meteorplanet/privacy/>
+- Tide Paws Terms of Service: <https://pungpung22.github.io/game-policies/13_meteorplanet/terms/>
+- Tide Paws Support: <https://pungpung22.github.io/game-policies/13_meteorplanet/support/>
 
 Recommended structure for future games:
 
