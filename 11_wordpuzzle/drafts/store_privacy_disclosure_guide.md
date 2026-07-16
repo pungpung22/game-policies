@@ -38,5 +38,8 @@ and the SDK-provider disclosures current on the submission date.
 - Review identifiers, usage data, diagnostics, and tracking answers against the
   current Google Mobile Ads iOS privacy disclosure and the final consent setup.
 - Do not claim that the app collects no data solely because gameplay stays local.
-- The current app does not request ATT. Re-evaluate before submission if the
-  advertising configuration or tracking behavior changes.
+- The current iOS app can present the published AdMob IDFA explanation followed
+  by Apple's ATT prompt on a clean install. The App Store privacy answers must
+  disclose tracking-related identifiers and advertising use when ATT is granted.
+  Verify that denial leaves core gameplay available and prevents access to the
+  advertising identifier or tracking as Apple defines it.
