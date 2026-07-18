@@ -17,6 +17,9 @@ Published pages:
 - Crush Factory Privacy Policy: <https://pungpung22.github.io/game-policies/01_crushfactory/privacy/>
 - Crush Factory Terms of Service: <https://pungpung22.github.io/game-policies/01_crushfactory/terms/>
 - Crush Factory Support: <https://pungpung22.github.io/game-policies/01_crushfactory/support/>
+- Sync Bloom Privacy Policy: <https://pungpung22.github.io/game-policies/02_cubepuzzle/privacy/>
+- Sync Bloom Terms of Service: <https://pungpung22.github.io/game-policies/02_cubepuzzle/terms/>
+- Sync Bloom Support: <https://pungpung22.github.io/game-policies/02_cubepuzzle/support/>
 - Ghost Paws Privacy Policy: <https://pungpung22.github.io/game-policies/08_GhostPaws/privacy/>
 - Ghost Paws Terms of Service: <https://pungpung22.github.io/game-policies/08_GhostPaws/terms/>
 - Ghost Paws Support: <https://pungpung22.github.io/game-policies/08_GhostPaws/support/>
