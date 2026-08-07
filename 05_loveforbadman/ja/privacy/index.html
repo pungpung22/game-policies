@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>プライバシーポリシー | 危険な彼女たち</title>
-  <meta name="description" content="危険な彼女たちの端末保存、Google広告、購入に関するプライバシーポリシー">
+  <meta name="description" content="危険な彼女たちの端末保存、Firebase、Google広告、購入に関するプライバシーポリシー">
   <link rel="stylesheet" href="/game-policies/assets/style.css">
 </head>
 <body>
@@ -21,28 +21,38 @@
     </nav>
     <article class="content">
       <h1>プライバシーポリシー</h1>
-      <p class="effective">施行・最終更新：2026年7月30日</p>
+      <p class="effective">施行・最終更新：2026年8月7日</p>
       <p><strong>pungpungstudi</strong>は、<strong>危険な彼女たち</strong>
         （<code>com.pungpungstudi.dangerousher</code>）における情報の
         取扱いを説明します。</p>
       <p class="notice"><strong>概要：</strong>アカウント登録は不要で、進行状況は
-        端末に保存されます。Google Mobile AdsとUser Messaging Platform（UMP）を
-        使用し、バナー広告、インタースティシャル広告、任意のリワード広告、
-        プライバシー設定を提供します。購入はApple App StoreまたはGoogle Playが
-        処理します。</p>
+        端末に保存されます。Firebase Analytics、Crashlytics、Remote Config、
+        Google Mobile Ads、User Messaging Platform（UMP）を使用し、利用状況の
+        分析、障害診断、リモート機能設定、広告、プライバシー設定を提供します。
+        購入はApple App StoreまたはGoogle Playが処理します。</p>
       <h2>1. 端末に保存されるデータ</h2>
       <p>キャラクター・ストーリーの解放、ハート残高、選択履歴、チャプター進行、
         手がかり、エンディング、コレクション、広告報酬、購入権利、言語・音声設定を
-        端末に保存します。開発者によるログインやクラウドセーブはありません。</p>
-      <h2>2. 広告に関するデータ</h2>
-      <p>Googleおよび広告パートナーは、広告の提供、頻度管理、測定、セキュリティ、
-        不正防止のため、IPアドレスから推定されるおおよその位置情報、端末または
-        アプリ単位の識別子、製品・広告との操作、広告データ、クラッシュ情報、
-        パフォーマンス診断を処理する場合があります。</p>
+        端末に保存します。開発者によるログインやクラウドセーブはありません。
+        以下の分析・診断データは、ゲーム進行とは別にGoogle Firebaseで処理される
+        場合があります。</p>
+      <h2>2. 分析、診断、リモート設定、広告データ</h2>
+      <p>本ゲームは、アプリの起動・画面・商品操作を分析する
+        <strong>Firebase Analytics</strong>、クラッシュのスタックトレースや
+        アプリ・OS・端末状態を診断する<strong>Firebase Crashlytics</strong>、
+        広告の有効化などの運用設定を配信する<strong>Firebase Remote Config</strong>、
+        広告提供・頻度管理・同意選択・測定・不正防止のための
+        <strong>Google Mobile AdsおよびUMP</strong>を使用します。</p>
+      <p>これらのサービスおよびGoogleの広告パートナーは、目的に応じて、
+        IPアドレスから推定されるおおよその位置情報、端末またはアプリ単位の
+        識別子、アプリ・製品・広告との操作、広告データ、クラッシュのスタック
+        トレース、実行時間、パフォーマンス診断を処理する場合があります。</p>
       <p>必要な地域ではUMPが同意画面を表示し、ゲーム内のプライバシー設定から
         再表示できます。現在、AppleのApp Tracking Transparency（ATT）許可を
         要求せず、他社のアプリやウェブサイトを横断した追跡を目的としてIDFAを
-        使用することを意図していません。個人情報を販売しません。</p>
+        使用することを意図していません。個人情報を販売しません。Firebaseは、
+        会話内容、プレイヤーの選択、端末に保存された進行状況をアップロードする
+        目的では使用しません。</p>
       <h2>3. アプリ内購入</h2>
       <p>支払いと返金はアプリストアが処理し、開発者はカード情報全体を受け取り
         ません。商品の提供と復元のため、商品ID、購入状態、取引識別子が交換される
@@ -50,15 +60,19 @@
         やプレミアムコンテンツは同じストアアカウントで復元できます。</p>
       <h2>4. 権限、保存、削除</h2>
       <p>カメラ、マイク、連絡先、正確な位置情報の権限は要求しません。ローカル
-        データはアプリデータの消去またはゲームの削除まで保持されます。開発者運営の
-        プレイヤーアカウントがないため、照会・削除できるリモートアカウントデータは
-        ありません。</p>
+        データはアプリデータの消去またはゲームの削除まで保持されます。Firebaseと
+        広告データは、Googleのサービス設定および保持ポリシーに従って保持された後、
+        削除または集計される場合があります。プレイヤーアカウントがないため、実名
+        アカウントでリモートデータを検索することはできません。削除またはデータに
+        関するお問い合わせは下記メールまでご連絡ください。データを特定できない場合は、
+        その理由をご案内します。</p>
       <h2>5. 児童と変更</h2>
       <p>本作は成人向けのフィクションスリラーであり、児童の個人情報を意図的に
         収集するよう設計されていません。機能、SDK、法的義務が大きく変わる場合は、
         本ポリシーとストアの開示を更新します。</p>
       <h2>6. 外部サービス・お問い合わせ</h2>
       <ul>
+        <li><a href="https://firebase.google.com/support/privacy">Firebaseのプライバシーとセキュリティ</a></li>
         <li><a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a></li>
         <li><a href="https://www.apple.com/legal/privacy/">Appleプライバシーポリシー</a></li>
       </ul>
