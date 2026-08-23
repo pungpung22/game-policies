@@ -14,6 +14,7 @@ Each game has its own folder using the actual local project directory name.
 
 Published pages:
 
+- Coral Magic Privacy Policy: <https://pungpung22.github.io/game-policies/27_axolotl_coral_magic/privacy/>
 - Crush Factory Privacy Policy: <https://pungpung22.github.io/game-policies/01_crushfactory/privacy/>
 - Crush Factory Terms of Service: <https://pungpung22.github.io/game-policies/01_crushfactory/terms/>
 - Crush Factory Support: <https://pungpung22.github.io/game-policies/01_crushfactory/support/>
