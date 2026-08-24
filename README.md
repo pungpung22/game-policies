@@ -35,11 +35,11 @@ Published pages:
 - Tide Paws Privacy Policy: <https://pungpung22.github.io/game-policies/13_meteorplanet/privacy/>
 - Tide Paws Terms of Service: <https://pungpung22.github.io/game-policies/13_meteorplanet/terms/>
 - Tide Paws Support: <https://pungpung22.github.io/game-policies/13_meteorplanet/support/>
-- Dangerous Her Privacy Policy: <https://pungpung22.github.io/game-policies/05_loveforbadman/privacy/>
-- Dangerous Her Terms of Service: <https://pungpung22.github.io/game-policies/05_loveforbadman/terms/>
-- Dangerous Her Support: <https://pungpung22.github.io/game-policies/05_loveforbadman/support/>
-- Dangerous Her English: <https://pungpung22.github.io/game-policies/05_loveforbadman/en/>
-- Dangerous Her Japanese: <https://pungpung22.github.io/game-policies/05_loveforbadman/ja/>
+- Love for Bad Man Privacy Policy: <https://pungpung22.github.io/game-policies/05_loveforbadman/privacy/>
+- Love for Bad Man Terms of Service: <https://pungpung22.github.io/game-policies/05_loveforbadman/terms/>
+- Love for Bad Man Support: <https://pungpung22.github.io/game-policies/05_loveforbadman/support/>
+- Love for Bad Man English: <https://pungpung22.github.io/game-policies/05_loveforbadman/en/>
+- Love for Bad Man Japanese: <https://pungpung22.github.io/game-policies/05_loveforbadman/ja/>
 
 Recommended structure for future games:
 
