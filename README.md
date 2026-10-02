@@ -29,6 +29,10 @@ Published pages:
 - Pengudoku Privacy Policy: <https://pungpung22.github.io/game-policies/09_pendoku/privacy/>
 - Pengudoku Terms of Service: <https://pungpung22.github.io/game-policies/09_pendoku/terms/>
 - Pengudoku Support: <https://pungpung22.github.io/game-policies/09_pendoku/support/>
+- WASD Squad (WASD 키우기, replaces Pengudoku from 2.0.0) Privacy Policy: <https://pungpung22.github.io/game-policies/28_wasd/privacy/>
+- WASD Squad Terms of Service: <https://pungpung22.github.io/game-policies/28_wasd/terms/>
+- WASD Squad Support and account deletion: <https://pungpung22.github.io/game-policies/28_wasd/support/>
+- WASD Squad English: <https://pungpung22.github.io/game-policies/28_wasd/en/>
 - Cipher Detective Privacy Policy: <https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/>
 - Cipher Detective Terms of Service: <https://pungpung22.github.io/game-policies/11_wordpuzzle/terms/>
 - Cipher Detective Support: <https://pungpung22.github.io/game-policies/11_wordpuzzle/support/>
