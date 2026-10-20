@@ -33,6 +33,8 @@ Published pages:
 - WASD Squad Terms of Service: <https://pungpung22.github.io/game-policies/28_wasd/terms/>
 - WASD Squad Support and account deletion: <https://pungpung22.github.io/game-policies/28_wasd/support/>
 - WASD Squad English: <https://pungpung22.github.io/game-policies/28_wasd/en/>
+- Oops Ninja (허당닌자 키우기) Odds: <https://pungpung22.github.io/game-policies/28_ninjakiugi/odds/>
+- Oops Ninja Odds (English): <https://pungpung22.github.io/game-policies/28_ninjakiugi/en/odds/> (privacy, terms and support stay at <https://pungpung22.github.io/shadow-seal-privacy.html>, `oops-ninja-terms.html`, `shadow-seal-support.html`)
 - Cipher Detective Privacy Policy: <https://pungpung22.github.io/game-policies/11_wordpuzzle/privacy/>
 - Cipher Detective Terms of Service: <https://pungpung22.github.io/game-policies/11_wordpuzzle/terms/>
 - Cipher Detective Support: <https://pungpung22.github.io/game-policies/11_wordpuzzle/support/>
