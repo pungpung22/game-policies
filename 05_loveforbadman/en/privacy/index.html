@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy | Love for Bad Man</title>
-  <meta name="description" content="Love for Bad Man privacy policy for local saves, Firebase, Google advertising, and purchases">
+  <meta name="description" content="Love for Bad Man privacy policy for local saves, Firebase analytics and crash reports, Google ads, Apple purchases, and support email">
   <link rel="stylesheet" href="/game-policies/assets/style.css">
 </head>
 <body>
@@ -15,81 +15,234 @@
         <a href="/game-policies/05_loveforbadman/en/privacy/">Privacy</a>
         <a href="/game-policies/05_loveforbadman/en/terms/">Terms</a>
         <a href="/game-policies/05_loveforbadman/en/support/">Support</a>
-        <a href="/game-policies/05_loveforbadman/privacy/">한국어</a>
-        <a href="/game-policies/05_loveforbadman/ja/privacy/">日本語</a>
+        <a href="/game-policies/05_loveforbadman/privacy/" hreflang="ko">한국어</a>
+        <a href="/game-policies/05_loveforbadman/ja/privacy/" hreflang="ja">日本語</a>
       </div>
     </nav>
     <article class="content">
       <h1>Privacy Policy</h1>
-      <p class="effective">Effective and last updated: August 24, 2026</p>
-      <p><strong>pungpungstudi</strong> explains here how
+      <p class="effective">Effective and last updated: October 22, 2026 · <a href="2026-08-24/">Previous version (August 24, 2026)</a></p>
+      <p><strong>PUNGPUNGSTUDI</strong> (“we”) explains here how the mobile game
         <strong>Love for Bad Man</strong>
-        (<code>com.pungpungstudi.loveforbadman</code>) handles information.</p>
-      <p class="notice"><strong>Summary:</strong> No account is required and
-        progress is stored on your device. Firebase Analytics, Crashlytics,
-        Remote Config, Google Mobile Ads, and the User Messaging Platform (UMP)
-        provide usage analytics, diagnostics, remote feature settings, ads, and
-        privacy choices. Apple App Store or Google Play processes purchases.</p>
-      <h2>1. Data stored on your device</h2>
-      <p>The game stores character and story unlocks, Heart balance, choices,
-        chapter progress, clues, endings, collection items, ad rewards,
-        purchase entitlements, language, and audio settings locally. We do not
-        operate account login or cloud saves. The analytics and diagnostics
-        described below may be processed separately by Google Firebase.</p>
-      <h2>2. Analytics, diagnostics, remote configuration, and advertising</h2>
-      <p>The game uses these Google services:</p>
+        (<code>com.pungpungstudi.loveforbadman</code>, the “game”) handles personal information.</p>
+      <p class="notice"><strong>Summary:</strong> There is no account or login, and
+        we do not run a game server. Your progress is stored only on your device.
+        The game uses Google Firebase (usage analytics, crash reports, remote
+        settings) and Google AdMob ads (banner, interstitial, and rewarded), which
+        send information to Google servers in the United States and elsewhere.
+        The Apple App Store processes purchases. Support email is received through
+        the support-mail service RevBell and stored on Cloudflare servers. We do
+        not sell personal information.</p>
+
+      <h2>1. Information we process and why</h2>
+      <p>The game does not ask for your name, email, phone number, or address, and
+        does not request camera, microphone, contacts, or precise location (GPS)
+        permission.</p>
+
+      <h3>Stored only on your device</h3>
       <ul>
-        <li><strong>Firebase Analytics</strong> to understand app launches,
-          screen and product interactions using app/device information and an
-          app-instance identifier.</li>
-        <li><strong>Firebase Crashlytics</strong> to diagnose crashes using stack
-          traces and relevant app, operating-system, device, and diagnostic state.</li>
-        <li><strong>Firebase Remote Config</strong> to deliver operational settings,
-          such as ad availability, using app-instance and configuration-request data.</li>
-        <li><strong>Google Mobile Ads and UMP</strong> to provide ads, manage
-          frequency and consent choices, measure delivery, provide security, and
-          prevent fraud.</li>
+        <li>Character and story unlocks, Heart balance, choices, chapter progress
+          and wait times, clues, endings and collection items, attendance rewards,
+          ad rewards, purchase entitlements, age-check answer, language and audio
+          settings.</li>
+        <li>This information stays on your device and is not sent to us. There is
+          no cloud save, so it is erased with the app and cannot be recovered.</li>
       </ul>
-      <p>Depending on purpose, these services and Google advertising partners may
-        process approximate location derived from IP address, device or app-scoped
-        identifiers, app, product and advertising interactions, advertising data,
-        crash stack traces, runtime information, and performance diagnostics.</p>
-      <p>Where required, UMP presents consent choices that can be reopened from
-        the game’s privacy settings. The current game does not request Apple
-        App Tracking Transparency permission and does not intentionally use
-        IDFA to track users across other companies’ apps or websites. We do
-        not sell personal information. Firebase is not used to upload story
-        dialogue, player choices, or locally saved game progress.</p>
-      <h2>3. In-app purchases</h2>
-      <p>The app store processes payments and refunds; we do not receive full
-        card details. Product IDs, purchase status, and transaction identifiers
-        may be exchanged to deliver and restore purchases. Consumable Hearts
-        are generally not restorable. Non-consumable characters and premium
-        content can be restored with the same store account.</p>
-      <h2>4. Permissions, retention, and deletion</h2>
-      <p>The game does not request camera, microphone, contacts, or precise
-        location permission. Local data remains until app data is cleared or
-        the game is removed. Firebase and advertising data may be retained and
-        then deleted or aggregated according to Google service settings and
-        retention policies. Because the game has no player account, we cannot
-        look up remote data by a real-name account. You may request deletion or
-        ask a data question using the email below; if the data cannot be
-        identified, we will explain why.</p>
-      <h2>5. Children and changes</h2>
-      <p>All characters in this fictional thriller are adults. The game is not
-        directed to children under 13 and is not designed to intentionally collect
-        children’s personal information. We will update
-        this policy and store disclosures if the app’s features, SDKs, or legal
-        obligations materially change.</p>
-      <h2>6. External services and contact</h2>
+
+      <h3>Usage analytics (Firebase Analytics)</h3>
+      <ul>
+        <li>App-instance identifier (a value created for each installation), device
+          model, operating system, app version and language, and approximate region
+          derived from IP address.</li>
+        <li>Gameplay events: app launches and first launch, screen views, age-check
+          answer, story start and end (character, chapter, scene number, ending
+          reached), the number of the choice you picked, clues found, chapter waits
+          and early opens, Heart spending, character offers and store views.</li>
+        <li>Purchase events: product ID, name and category, price, currency,
+          transaction ID, and purchase result.</li>
+        <li>Ad events: ad shown, completed, or failed to load, and placement.</li>
+        <li>Purpose: to understand where players stop and which stories and products
+          are used, so we can improve the game. Dialogue text, your save data
+          itself, names, and email addresses are not sent.</li>
+        <li>Analytics is optional and on by default. Turn off “Send game-improvement
+          analytics” in the game’s Settings and no further analytics are sent
+          (see section 4 for how to refuse).</li>
+      </ul>
+
+      <h3>Crash reports (Firebase Crashlytics)</h3>
+      <ul>
+        <li>Crash and error stack traces, app and OS versions, device model and
+          state (memory, storage, orientation, etc.), and a Crashlytics installation
+          identifier.</li>
+        <li>Purpose: to find and fix app errors.</li>
+      </ul>
+
+      <h3>Remote settings (Firebase Remote Config)</h3>
+      <ul>
+        <li>Firebase installation identifier, app and OS versions, and
+          configuration-request information.</li>
+        <li>Purpose: to deliver operational settings such as ad availability and
+          chapter wait times.</li>
+      </ul>
+
+      <h3>Advertising (Google AdMob and User Messaging Platform)</h3>
+      <ul>
+        <li>IP address and approximate location derived from it, device- or
+          app-scoped identifiers (not IDFA), device, OS and app information, ad
+          interactions such as impressions and clicks, consent status, and
+          performance and diagnostic information.</li>
+        <li>Purpose: serving ads, frequency capping, fraud prevention, ad
+          measurement, and consent management.</li>
+      </ul>
+
+      <h3>In-app purchases (Apple App Store)</h3>
+      <ul>
+        <li>Apple processes payments; we never receive card numbers or other payment
+          details.</li>
+        <li>Purchases are verified on your device with Apple StoreKit, and the
+          product ID and transaction ID are used to deliver and restore items. We
+          do not run a purchase-verification server.</li>
+        <li>The purchase events described under usage analytics are sent to Google.</li>
+      </ul>
+
+      <h3>Support email (optional)</h3>
+      <ul>
+        <li>If you email us: sender, recipient and reply-to addresses, subject,
+          body, attached images, email headers and time received, our replies, and
+          anything else you include (device and app version, product name,
+          approximate purchase time, etc.).</li>
+        <li>Purpose: answering inquiries, handling access, deletion and other rights
+          requests, and checking payments and errors.</li>
+      </ul>
+
+      <h2>2. Ads and privacy choices</h2>
+      <p>The game shows banner and interstitial ads and optional rewarded ads. Every
+        ad request is tagged for under-age-of-consent treatment with a Teen (T)
+        content cap. With this setting, personalized ads, remarketing, and requests
+        to third-party ad vendors are turned off and the advertising identifier
+        (IDFA) is not sent. The game does not request Apple App Tracking
+        Transparency permission and does not track you across other companies’
+        apps or websites.</p>
+      <p>Where required, Google UMP shows privacy choices, which you can reopen from
+        <strong>Settings › Ad privacy settings</strong> in the game.</p>
+
+      <h2>3. Retention and deletion</h2>
+      <ul>
+        <li><strong>Data on your device:</strong> until you delete the app or reset
+          progress in Settings (reset clears story progress only; purchases and
+          Hearts are kept).</li>
+        <li><strong>Usage analytics (Firebase Analytics):</strong> events 2 months,
+          user-level data 14 months (restarted by new activity). Aggregated reports
+          may remain.</li>
+        <li><strong>Crash reports (Crashlytics):</strong> Google starts deletion after
+          90 days.</li>
+        <li><strong>Firebase installation identifiers:</strong> until we request
+          deletion (then removed from backups within 180 days).</li>
+        <li><strong>Advertising data (AdMob):</strong> according to Google’s retention
+          policies.</li>
+        <li><strong>Payment records:</strong> kept by Apple under Apple’s policies. We
+          have no payment server and keep no separate payment records.</li>
+        <li><strong>Contract and withdrawal records handled through support:</strong>
+          5 years (Korean Act on Consumer Protection in Electronic Commerce).</li>
+        <li><strong>Consumer complaint and dispute records:</strong> 3 years (same Act).</li>
+        <li><strong>Original support emails (kept by RevBell):</strong> deleted
+          automatically 1 year after receipt; attached images after 90 days. For
+          payment or refund disputes that must be kept for 3 years, we keep a
+          separate record of the outcome.</li>
+      </ul>
+      <p>Information whose retention period has ended or whose deletion you
+        requested is destroyed without delay. Electronic files are deleted so they
+        cannot be recovered, and we do not print personal information on paper.
+        Information kept under law is used only for that purpose.</p>
+
+      <h2>4. Service providers and international transfers</h2>
+      <p>The following companies process information to operate the game. Their
+        servers are outside Korea, so information is transferred abroad over the
+        network (HTTPS) while you use the app (support email: when you send it).
+        We do not provide personal information to any other third party.</p>
+      <ul>
+        <li><strong>Google LLC</strong> (United States and other Google data centers ·
+          contact: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>):
+          Firebase Analytics, Crashlytics, Remote Config, AdMob and UMP. Processes
+          the analytics, crash, remote-settings, and advertising information in
+          section 1. Retention: as in section 3.</li>
+        <li><strong>Apple Inc.</strong> (United States and elsewhere · contact:
+          <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>):
+          App Store payments and purchase restoration. Retention: Apple’s policies.</li>
+        <li><strong>RevBell</strong> (developer Jaemin Song · contact:
+          <a href="https://reviewbell.byjm.dev/privacy">RevBell Privacy Policy</a>):
+          receives and stores email sent to <code>pungpungstudi@hello-support.com</code>
+          so that we can read and reply to it. Processes the support-email
+          information in section 1. Retention: 1 year from receipt (attached
+          images 90 days).</li>
+        <li><strong>Cloudflare, Inc.</strong> (United States; stored in Cloudflare
+          data centers in the United States and elsewhere · contact:
+          <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>):
+          the email receiving, sending, and storage service RevBell uses. Receives
+          support-email information when you send it and stores it for RevBell’s
+          retention period.</li>
+      </ul>
+      <p>If you do not want your information transferred abroad, stop using the
+        game and delete the app; no further information is sent, but you will not
+        be able to play. Ad privacy choices can be changed in Settings. Support
+        email is not transferred unless you send one, and not sending email does
+        not limit the game.</p>
+
+      <h2>5. Your rights</h2>
+      <p>You may request access to, correction, deletion, or suspension of
+        processing of your information. Data on your device is deleted when you
+        delete the app. Send other requests to the contact below. Because the game
+        has no accounts, we may be unable to link information sent to Google to a
+        particular person; if so, we will explain why. We handle requests without
+        delay and tell you the result.</p>
+
+      <h2>6. Children</h2>
+      <p>All characters are adults, and the game asks players to confirm they are
+        15 or older when it starts. The game is not directed to children under 14
+        and does not knowingly collect children’s personal information. A parent or
+        guardian may ask us to delete a child’s information using the contact below.</p>
+
+      <h2>7. Security</h2>
+      <p>We do not operate our own server and keep game progress only on your
+        device. Communication with outside services is encrypted with HTTPS, and
+        access to the Firebase, AdMob, and support-mail consoles is limited to the
+        developer.</p>
+
+      <h2>8. Privacy officer and contact</h2>
+      <p>Privacy officer: Jaehyun Pung (PUNGPUNGSTUDI) · Email
+        <a href="mailto:pungpungstudi@hello-support.com?subject=%5BLove%20for%20Bad%20Man%5D%20Privacy%20request">pungpungstudi@hello-support.com</a></p>
       <ul>
         <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
         <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
         <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
-        <li><a href="https://support.google.com/googleplay/answer/113412">Google Play Data safety</a></li>
       </ul>
-      <p>Privacy or data questions:
-        <a href="mailto:pung0805@gmail.com">pung0805@gmail.com</a></p>
+
+      <h2>9. Remedies (Korea)</h2>
+      <p>For advice or remedies concerning a privacy infringement, you may contact:</p>
+      <ul>
+        <li>Personal Information Infringement Report Center: <a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a> · 118 (in Korea)</li>
+        <li>Personal Information Dispute Mediation Committee: <a href="https://www.kopico.go.kr">www.kopico.go.kr</a> · 1833-6972</li>
+        <li>Supreme Prosecutors’ Office: <a href="https://www.spo.go.kr">www.spo.go.kr</a> · 1301 (in Korea)</li>
+        <li>Korean National Police Agency: <a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a> · 182 (in Korea)</li>
+      </ul>
+
+      <h2>10. Changes</h2>
+      <p>When this policy changes, we post the effective date and the changes on
+        this page and keep the previous version. Changes in the October 22, 2026
+        version:</p>
+      <ul>
+        <li>The contact is now the support address
+          <code>pungpungstudi@hello-support.com</code>, and RevBell and Cloudflare,
+          which handle support email, were added as service providers and
+          international recipients.</li>
+        <li>The information sent by usage analytics (choice number, clues, age-check
+          answer, purchase price, currency, transaction ID, etc.) is described in
+          detail.</li>
+        <li>Retention periods by item, the transfer to Google LLC (United States),
+          your rights, the privacy officer, security measures, and remedies were added.</li>
+        <li>The payment processor is now listed as the Apple App Store, matching the
+          current iPhone and iPad app.</li>
+      </ul>
     </article>
   </main>
 </body>
