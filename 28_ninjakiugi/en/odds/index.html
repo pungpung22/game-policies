@@ -31,7 +31,7 @@
     </nav>
     <article class="content">
       <h1>Odds</h1>
-      <p>Effective and last updated: October 28, 2026 · <a href="2026-10-26/">Previous version (October 26, 2026)</a></p>
+      <p>Effective and last updated: October 28, 2026 · <a href="2026-10-28/">Previous version (October 28, 2026, earlier the same day)</a></p>
       <p>These are the randomized items in Oops Ninja and their odds. They come from the same tables as the in-game Odds window and apply from app version 1.0 (4). We announce any change here and in the game first. Odds are rounded, so a column may differ from 100% by a tiny amount.</p>
       <p>Summon tickets come from the shop (paid) and from play (attendance, missions, requests, events and more; free). Every ticket has the same odds wherever it came from (paid and free alike).</p>
       <h2>Contents</h2>
@@ -253,7 +253,7 @@
       <h2 id="s4">4. Gear upgrades and breakthroughs</h2>
       <p>Gear upgrades can fail from Lv.31, and the breakthrough every 10 levels from Lv.40. The level in the table is the one the upgrade starts from (Lv.31 → Lv.32 is the &quot;Lv.31~39&quot; row).</p>
       <p>On a failure the attempt&#x27;s silver and materials are used and the level stays (it never drops and the gear is never lost). The next success chance for the same slot rises by 10 percentage points (up to 100%), and a success resets it.</p>
-      <p>&quot;Most tries&quot; is the number of attempts until failures bring the chance to 100%. There are no protection items and no paid items that raise these odds.</p>
+      <p>&quot;Most tries&quot; is the number of attempts until failures bring the chance to 100%. There are no protection items and no paid items that raise these odds, and the odds are the same however the silver and materials were obtained.</p>
 <div class="scroll"><table class="odds">
 <thead><tr><th scope="col">Upgrade level</th><th scope="col">First success chance</th><th scope="col">Most tries</th></tr></thead>
 <tbody>
@@ -271,39 +271,42 @@
 <tr><th scope="row">Lv.81~89</th><td>40%</td><td>7</td></tr>
 </tbody></table></div>
       <h2 id="s5">5. Gear potential options</h2>
-      <p>New gear comes without potential options. From field 2-1, Grant Potential (silver) sets all of the gear grade&#x27;s lines at once. The gear grade sets the number of lines; each line gets one of 12 kinds, each with the same chance (8.33%), and an option grade (C·B·A·S) with the odds below.</p>
-      <p>Rerolling options (silver) sets the unlocked lines again with the same odds, and you choose whether to keep the result. Locked lines never change, and upgrades never change options. There is no grant or reroll for spirit stones or money.</p>
-      <p>Fusion carries the kept item&#x27;s lines into the new item (a kept item without lines makes one without lines). A line the higher grade adds stays empty until a reroll sets it.</p>
+      <p>New gear comes without potential options. From field 2-1, Grant Potential (silver) sets the open lines. The gear grade sets the most lines; line 1 is open from the start, line 2 opens at slot upgrade Lv.20 and line 3 at Lv.40. A line that opens later is set free with Grant Potential, and a set line never closes. Each line gets one of 14 kinds, each with the same chance (7.14%), and an option grade (the gear&#x27;s nine grades, Common to Primordial) with the odds below (the first grant, a line opened later and a reroll all use the same odds).</p>
+      <p>Reroll Potential (silver) sets the open, unlocked lines again with the same odds, right away (there is no undo). Locked lines never change, and upgrades never change set lines (they only open new ones). There is no grant or reroll for spirit stones or money, and the odds are the same however the silver was obtained.</p>
+      <p>Lines set before this update move from option grades C·B·A·S to Common·Uncommon·Rare·Legendary, keeping their values.</p>
+      <p>Fusion carries the kept item&#x27;s lines into the new item (a kept item without lines makes one without lines). A line the higher grade adds is set free with Grant Potential once the slot upgrade level opens it.</p>
       <p>Gear quality: whenever gear is obtained (a new account&#x27;s starting gear, summon, craft, fusion, offline reward), one value from 80% to 120% in 1% steps (41 values) is set, each with the same chance (2.44%). It multiplies the item&#x27;s grade attack, slot stat and kind stat. Gear obtained before this update stays at 100% quality and keeps its potential lines.</p>
 <div class="scroll"><table class="odds">
-<thead><tr><th scope="col">Gear grade</th><th scope="col">Lines</th><th scope="col">C</th><th scope="col">B</th><th scope="col">A</th><th scope="col">S</th></tr></thead>
+<thead><tr><th scope="col">Gear grade</th><th scope="col">Lines</th><th scope="col">Common</th><th scope="col">Uncommon</th><th scope="col">Rare</th><th scope="col">Heroic</th><th scope="col">Legendary</th><th scope="col">Mythic</th><th scope="col">Transcendent</th><th scope="col">Immortal</th><th scope="col">Primordial</th></tr></thead>
 <tbody>
-<tr><th scope="row">Common</th><td>1</td><td>70%</td><td>25%</td><td>5%</td><td>0%</td></tr>
-<tr><th scope="row">Uncommon</th><td>1</td><td>60%</td><td>30%</td><td>9%</td><td>1%</td></tr>
-<tr><th scope="row">Rare</th><td>2</td><td>45%</td><td>35%</td><td>17%</td><td>3%</td></tr>
-<tr><th scope="row">Heroic</th><td>2</td><td>30%</td><td>40%</td><td>25%</td><td>5%</td></tr>
-<tr><th scope="row">Legendary</th><td>3</td><td>20%</td><td>40%</td><td>32%</td><td>8%</td></tr>
-<tr><th scope="row">Mythic</th><td>3</td><td>10%</td><td>35%</td><td>42%</td><td>13%</td></tr>
-<tr><th scope="row">Transcendent</th><td>3</td><td>5%</td><td>30%</td><td>45%</td><td>20%</td></tr>
-<tr><th scope="row">Immortal</th><td>3</td><td>0%</td><td>25%</td><td>50%</td><td>25%</td></tr>
-<tr><th scope="row">Primordial</th><td>3</td><td>0%</td><td>15%</td><td>50%</td><td>35%</td></tr>
+<tr><th scope="row">Common</th><td>1</td><td>65%</td><td>27%</td><td>7%</td><td>1%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><th scope="row">Uncommon</th><td>1</td><td>55%</td><td>30%</td><td>12%</td><td>2.5%</td><td>0.5%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><th scope="row">Rare</th><td>2</td><td>40%</td><td>35%</td><td>18%</td><td>5.5%</td><td>1.5%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><th scope="row">Heroic</th><td>2</td><td>28%</td><td>36%</td><td>25%</td><td>8%</td><td>2.5%</td><td>0.5%</td><td>0%</td><td>0%</td><td>0%</td></tr>
+<tr><th scope="row">Legendary</th><td>3</td><td>18%</td><td>35%</td><td>30%</td><td>11%</td><td>4.5%</td><td>1.2%</td><td>0.3%</td><td>0%</td><td>0%</td></tr>
+<tr><th scope="row">Mythic</th><td>3</td><td>9%</td><td>30%</td><td>36%</td><td>15%</td><td>7%</td><td>2.2%</td><td>0.6%</td><td>0.2%</td><td>0%</td></tr>
+<tr><th scope="row">Transcendent</th><td>3</td><td>4%</td><td>25%</td><td>38%</td><td>18%</td><td>10%</td><td>3.5%</td><td>1.1%</td><td>0.35%</td><td>0.05%</td></tr>
+<tr><th scope="row">Immortal</th><td>3</td><td>0%</td><td>20%</td><td>39%</td><td>21%</td><td>13%</td><td>4.8%</td><td>1.6%</td><td>0.5%</td><td>0.1%</td></tr>
+<tr><th scope="row">Primordial</th><td>3</td><td>0%</td><td>12%</td><td>38%</td><td>24%</td><td>16%</td><td>6.5%</td><td>2.5%</td><td>0.8%</td><td>0.2%</td></tr>
 </tbody></table></div>
       <h3>Values by option grade</h3>
 <div class="scroll"><table class="odds">
-<thead><tr><th scope="col">Kind</th><th scope="col">C</th><th scope="col">B</th><th scope="col">A</th><th scope="col">S</th></tr></thead>
+<thead><tr><th scope="col">Kind</th><th scope="col">Common</th><th scope="col">Uncommon</th><th scope="col">Rare</th><th scope="col">Heroic</th><th scope="col">Legendary</th><th scope="col">Mythic</th><th scope="col">Transcendent</th><th scope="col">Immortal</th><th scope="col">Primordial</th></tr></thead>
 <tbody>
-<tr><th scope="row">Attack</th><td>2%</td><td>3%</td><td>4%</td><td>6%</td></tr>
-<tr><th scope="row">Throw Speed</th><td>1%</td><td>1.5%</td><td>2%</td><td>3%</td></tr>
-<tr><th scope="row">Crit Chance</th><td>0.5%</td><td>0.75%</td><td>1%</td><td>1.5%</td></tr>
-<tr><th scope="row">Crit Damage</th><td>3%</td><td>4.5%</td><td>6%</td><td>9%</td></tr>
-<tr><th scope="row">Health</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>7.5%</td></tr>
-<tr><th scope="row">Damage Cut</th><td>1%</td><td>1.5%</td><td>2%</td><td>3%</td></tr>
-<tr><th scope="row">Ninjutsu</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>7.5%</td></tr>
-<tr><th scope="row">Cooldown Cut</th><td>1%</td><td>1.5%</td><td>2%</td><td>3%</td></tr>
-<tr><th scope="row">Boss Damage</th><td>3%</td><td>4.5%</td><td>6%</td><td>9%</td></tr>
-<tr><th scope="row">Pierce</th><td>1.5%</td><td>2.25%</td><td>3%</td><td>4.5%</td></tr>
-<tr><th scope="row">Accuracy</th><td>1.5%</td><td>2.25%</td><td>3%</td><td>4.5%</td></tr>
-<tr><th scope="row">Loot</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>7.5%</td></tr>
+<tr><th scope="row">Attack</th><td>2%</td><td>3%</td><td>4%</td><td>5%</td><td>6%</td><td>7.2%</td><td>8.8%</td><td>10.4%</td><td>12%</td></tr>
+<tr><th scope="row">Throw Speed</th><td>1%</td><td>1.5%</td><td>2%</td><td>2.5%</td><td>3%</td><td>3.6%</td><td>4.4%</td><td>5.2%</td><td>6%</td></tr>
+<tr><th scope="row">Crit Chance</th><td>0.5%</td><td>0.75%</td><td>1%</td><td>1.25%</td><td>1.5%</td><td>1.8%</td><td>2.2%</td><td>2.6%</td><td>3%</td></tr>
+<tr><th scope="row">Crit Damage</th><td>3%</td><td>4.5%</td><td>6%</td><td>7.5%</td><td>9%</td><td>10.8%</td><td>13.2%</td><td>15.6%</td><td>18%</td></tr>
+<tr><th scope="row">Health</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>6.25%</td><td>7.5%</td><td>9%</td><td>11%</td><td>13%</td><td>15%</td></tr>
+<tr><th scope="row">Damage Cut</th><td>1%</td><td>1.5%</td><td>2%</td><td>2.5%</td><td>3%</td><td>3.6%</td><td>4.4%</td><td>5.2%</td><td>6%</td></tr>
+<tr><th scope="row">Ninjutsu</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>6.25%</td><td>7.5%</td><td>9%</td><td>11%</td><td>13%</td><td>15%</td></tr>
+<tr><th scope="row">Cooldown Cut</th><td>1%</td><td>1.5%</td><td>2%</td><td>2.5%</td><td>3%</td><td>3.6%</td><td>4.4%</td><td>5.2%</td><td>6%</td></tr>
+<tr><th scope="row">Boss Damage</th><td>3%</td><td>4.5%</td><td>6%</td><td>7.5%</td><td>9%</td><td>10.8%</td><td>13.2%</td><td>15.6%</td><td>18%</td></tr>
+<tr><th scope="row">Pierce</th><td>1.5%</td><td>2.25%</td><td>3%</td><td>3.75%</td><td>4.5%</td><td>5.4%</td><td>6.6%</td><td>7.8%</td><td>9%</td></tr>
+<tr><th scope="row">Accuracy</th><td>1.5%</td><td>2.25%</td><td>3%</td><td>3.75%</td><td>4.5%</td><td>5.4%</td><td>6.6%</td><td>7.8%</td><td>9%</td></tr>
+<tr><th scope="row">Loot</th><td>2.5%</td><td>3.75%</td><td>5%</td><td>6.25%</td><td>7.5%</td><td>9%</td><td>11%</td><td>13%</td><td>15%</td></tr>
+<tr><th scope="row">Offline Reward</th><td>3%</td><td>4.5%</td><td>6%</td><td>7.5%</td><td>9%</td><td>10.8%</td><td>13.2%</td><td>15.6%</td><td>18%</td></tr>
+<tr><th scope="row">Dungeon Damage</th><td>3%</td><td>4.5%</td><td>6%</td><td>7.5%</td><td>9%</td><td>10.8%</td><td>13.2%</td><td>15.6%</td><td>18%</td></tr>
 </tbody></table></div>
       <h2 id="s6">6. Mileage (guaranteed exchange)</h2>
       <p>Every skill, companion and pet summon adds 1 point of that summon&#x27;s mileage (ticket and spirit stone summons alike). Mileage buys a chosen item of the grades below outright, with no odds. Mileage never expires and stays when the rate-up period changes.</p>
