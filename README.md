@@ -47,6 +47,7 @@ Published pages:
 - Love for Bad Man English: <https://pungpung22.github.io/game-policies/05_loveforbadman/en/>
 - Love for Bad Man Japanese: <https://pungpung22.github.io/game-policies/05_loveforbadman/ja/>
 - Malanggom Guild (말랑곰 길드 키우기) Privacy, Terms, Rules, Support, Odds and Account Deletion (ko · en · ja): <https://pungpung22.github.io/game-policies/32_guildkiugi/>
+- Raccoon Patrol (라쿤 순찰대) Privacy, Terms, Support, Odds and Account Deletion (ko · en · ja): <https://pungpung22.github.io/game-policies/33_gunracoon/>
 
 Recommended structure for future games:
 
